@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Basketball Counter</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="box">
+                <h3>HOME</h3>
+                <p id="homeScore">0</p>
+                <div>
+                    <button  class="buttons" onclick="homeOne()">+1</button>
+                    <button  class="buttons" onclick="homeTwo()">+2</button>
+                    <button  class="buttons" onclick="homeThree()">+3</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>GUEST</h3>
+                <p id="guestScore">0</p>
+                <div>
+                    <button  class="buttons" onclick="guestOne()">+1</button>
+                    <button  class="buttons" onclick="guestTwo()">+2</button>
+                    <button  class="buttons" onclick="guestThree()">+3</button>
+                </div>
+            </div>
+            
+            
+
+        </div>
+        <button id="reset" onclick="reset()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
